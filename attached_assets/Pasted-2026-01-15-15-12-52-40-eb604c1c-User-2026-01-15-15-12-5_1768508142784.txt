@@ -1,0 +1,96 @@
+2026-01-15 15:12:52.40
+eb604c1c
+User
+},
+2026-01-15 15:12:52.40
+eb604c1c
+User
+at async eI.handle (/home/runner/workspace/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:43737)
+2026-01-15 15:12:52.40
+eb604c1c
+User
+finish: [Function: requestOnFinish]
+2026-01-15 15:12:52.40
+eb604c1c
+User
+'Content-Type': 'application/json',
+2026-01-15 15:12:52.40
+eb604c1c
+User
+at settle (/home/runner/workspace/.next/server/chunks/345.js:90220:12)
+2026-01-15 15:12:52.40
+eb604c1c
+User
+at async SunoApi.keepAlive (/home/runner/workspace/.next/server/chunks/669.js:215:31)
+2026-01-15 15:12:52.40
+eb604c1c
+User
+at IncomingMessage.handleStreamEnd (/home/runner/workspace/.next/server/chunks/345.js:91439:11)
+2026-01-15 15:12:52.40
+eb604c1c
+User
+destroyed: true,
+2026-01-15 15:12:52.40
+eb604c1c
+User
+Cookie: '__client=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdW5vLmNvbS9jbGFpbXMvY2xpZW50X2lkIjoiY2xpZW50XzVzaHVGNGlvSFVBeTZTRjNhN01GbXgiLCJzdW5vLmNvbS9jbGFpbXMvdG9rZW5fdHlwZSI6InJlZnJlc2giLCJpc3MiOiJodHRwczovL2F1dGguc3Vuby5jb20iLCJleHAiOjE4MDAwMzkxNjF9.rYPOxhTEzDiHmga52xx4O8XiFZ4uFru4N8_BAmqtlLohlPFngeKw93Rca9JadiVJN6KwfdtoyvLMMdANacZ7QvLTc39jVcoFHpdAQSOnaqFaUhBjOYRHHdshleiR4QASz7ivZydtIKyr7eaHQWvdsrUW5HDnJrTTwDbdOOntgBsMxij9VG7kCNyxuKF2QunoaHp5Qq_L0J_yFadNLJsu75UcpPebSaZiwqEqfDr32TZZotimXXcxapL18mr7qUdQ-83a5BztCQ5MemewJrVk4zoIVj0sVZkeHnFxD2oJV4YTMtkcjMg4HAOoyCCdhh8wGF_7k5O7EPVrEEs8nJA-2Q',
+2026-01-15 15:12:52.40
+eb604c1c
+User
+transformResponse: [ [Function: transformResponse] ],
+2026-01-15 15:12:52.40
+eb604c1c
+User
+'Affiliate-Id': 'undefined',
+2026-01-15 15:12:52.40
+eb604c1c
+User
+xsrfCookieName: 'XSRF-TOKEN',
+2026-01-15 15:12:52.40
+eb604c1c
+User
+at async GET (/home/runner/workspace/.next/server/app/api/get/route.js:292:29)
+2026-01-15 15:12:52.40
+eb604c1c
+User
+_defaultKeepAlive: true,
+2026-01-15 15:12:52.40
+eb604c1c
+User
+forcedJSONParsing: true,
+2026-01-15 15:12:52.40
+eb604c1c
+User
+at IncomingMessage.emit (node:events:536:35)
+2026-01-15 15:12:52.40
+eb604c1c
+User
+xsrfHeaderName: 'X-XSRF-TOKEN',
+2026-01-15 15:12:52.40
+eb604c1c
+User
+validateStatus: [Function: validateStatus],
+2026-01-15 15:12:52.40
+eb604c1c
+User
+maxContentLength: -1,
+2026-01-15 15:12:52.40
+eb604c1c
+User
+url: 'https://auth.suno.com/v1/client/sessions/session_75b35c30682ce07084bb1e/tokens?__clerk_api_version=2025-11-10&_clerk_js_version=5.117.0&_is_native=true',
+2026-01-15 15:12:52.40
+eb604c1c
+User
+maxRequestsOnConnectionReached: false,
+2026-01-15 15:12:52.40
+eb604c1c
+User
+request: ClientRequest {
+2026-01-15 15:12:58.33
+eb604c1c
+User
+{"level":30,"time":1768507978338,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 15:12:58.67
+eb604c1c
+User
+{"level":30,"time":1768507978677,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.c
