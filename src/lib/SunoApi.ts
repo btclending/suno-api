@@ -622,8 +622,9 @@ class SunoApi {
     if (wait_audio) {
       const startTime = Date.now();
       let lastResponse: AudioInfo[] = [];
-      await sleep(5, 5);
-      while (Date.now() - startTime < 100000) {
+      let pollCount = 0;
+      await sleep(10, 5); // Initial wait before first poll
+      while (Date.now() - startTime < 180000) { // 3 minute timeout
         const response = await this.get(songIds);
         const allCompleted = response.every(
           (audio) => audio.status === 'streaming' || audio.status === 'complete'
@@ -633,8 +634,12 @@ class SunoApi {
           return response;
         }
         lastResponse = response;
-        await sleep(3, 6);
-        await this.keepAlive(true);
+        pollCount++;
+        await sleep(10, 5); // Wait 10-15 seconds between polls
+        // Only keepAlive every 3rd poll to reduce requests
+        if (pollCount % 3 === 0) {
+          await this.keepAlive(true);
+        }
       }
       return lastResponse;
     } else {
