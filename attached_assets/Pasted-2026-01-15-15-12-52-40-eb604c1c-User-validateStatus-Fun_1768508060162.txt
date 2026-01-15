@@ -1,0 +1,121 @@
+2026-01-15 15:12:52.40
+eb604c1c
+User
+validateStatus: [Function: validateStatus],
+2026-01-15 15:12:52.40
+eb604c1c
+User
+maxContentLength: -1,
+2026-01-15 15:12:52.40
+eb604c1c
+User
+url: 'https://auth.suno.com/v1/client/sessions/session_75b35c30682ce07084bb1e/tokens?__clerk_api_version=2025-11-10&_clerk_js_version=5.117.0&_is_native=true',
+2026-01-15 15:12:52.40
+eb604c1c
+User
+maxRequestsOnConnectionReached: false,
+2026-01-15 15:12:52.40
+eb604c1c
+User
+request: ClientRequest {
+2026-01-15 15:12:58.33
+eb604c1c
+User
+{"level":30,"time":1768507978338,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 15:12:58.67
+eb604c1c
+User
+{"level":30,"time":1768507978677,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+2026-01-15 15:13:04.34
+eb604c1c
+User
+{"level":30,"time":1768507984345,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 15:13:04.59
+eb604c1c
+User
+{"level":30,"time":1768507984599,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+2026-01-15 15:13:10.31
+eb604c1c
+User
+{"level":30,"time":1768507990315,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 15:13:10.49
+eb604c1c
+User
+{"level":30,"time":1768507990495,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+2026-01-15 15:13:10.49
+eb604c1c
+User
+{"level":30,"time":1768507990495,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+2026-01-15 15:13:16.32
+eb604c1c
+User
+{"level":30,"time":1768507996319,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 15:13:16.77
+eb604c1c
+User
+{"level":30,"time":1768507996777,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+2026-01-15 15:13:22.31
+eb604c1c
+User
+{"level":30,"time":1768508002318,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 15:13:22.53
+eb604c1c
+User
+{"level":30,"time":1768508002532,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+2026-01-15 15:13:22.53
+eb604c1c
+User
+{"level":30,"time":1768508002532,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+2026-01-15 15:13:22.53
+eb604c1c
+User
+{"level":30,"time":1768508002532,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+2026-01-15 15:13:22.53
+eb604c1c
+User
+{"level":30,"time":1768508002532,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+2026-01-15 15:13:40.39
+eb604c1c
+User
+{"level":30,"time":1768508020398,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 15:13:40.58
+eb604c1c
+User
+{"level":30,"time":1768508020585,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+2026-01-15 15:13:46.31
+eb604c1c
+User
+{"level":30,"time":1768508026314,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 15:13:46.78
+eb604c1c
+User
+{"level":30,"time":1768508026789,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+2026-01-15 15:13:52.32
+eb604c1c
+User
+{"level":30,"time":1768508032319,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 15:13:52.68
+eb604c1c
+User
+{"level":30,"time":1768508032689,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+2026-01-15 15:13:58.36
+eb604c1c
+User
+{"level":30,"time":1768508038366,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 15:13:58.53
+eb604c1c
+User
+{"level":30,"time":1768508038533,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+2026-01-15 15:14:04.33
+eb604c1c
+User
+{"level":30,"time":1768508044333,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 15:14:04.33
+eb604c1c
+User
+{"level":30,"time":1768508044333,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 15:14:04.70
+eb604c1c
+User
+{"level":30,"time":1768508044701,"pid":30,"hostname":"nixos","msg":"Get audio status: https://studio-api.prod.suno.com/api/feed/v2?ids=1ca48588-4b54-4608-b32c-ef864f01a9df"}
+Wrap
