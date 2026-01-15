@@ -1,0 +1,141 @@
+2026-01-15 16:27:34.34
+e379b515
+User
+_eventsCount: 7,
+2026-01-15 16:27:34.34
+e379b515
+User
+at async cacheEntry.responseCache.get.routeKind (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1539:28) {
+2026-01-15 16:27:34.34
+e379b515
+User
+},
+2026-01-15 16:27:34.34
+e379b515
+User
+_events: [Object: null prototype] {
+2026-01-15 16:27:34.34
+e379b515
+User
+transformRequest: [ [Function: transformRequest] ],
+2026-01-15 16:27:34.34
+e379b515
+User
+at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2026-01-15 16:27:34.34
+e379b515
+User
+transformResponse: [ [Function: transformResponse] ],
+2026-01-15 16:27:34.34
+e379b515
+User
+request: ClientRequest {
+2026-01-15 16:27:34.34
+e379b515
+User
+connect: [Function (anonymous)],
+2026-01-15 16:27:34.34
+e379b515
+User
+'Accept-Encoding': 'gzip, compress, deflate, br'
+2026-01-15 16:27:34.34
+e379b515
+User
+at async SunoApi.get (/home/runner/workspace/.next/server/chunks/669.js:696:9)
+2026-01-15 16:27:34.34
+e379b515
+User
+xsrfHeaderName: 'X-XSRF-TOKEN',
+2026-01-15 16:27:34.34
+e379b515
+User
+error: [Function (anonymous)],
+2026-01-15 16:27:34.34
+e379b515
+User
+env: { FormData: [Function], Blob: [class Blob] },
+2026-01-15 16:27:34.34
+e379b515
+User
+at IncomingMessage.handleStreamEnd (/home/runner/workspace/.next/server/chunks/345.js:91439:11)
+2026-01-15 16:27:34.34
+e379b515
+User
+},
+2026-01-15 16:27:34.34
+e379b515
+User
+'x-suno-client': 'Android prerelease-4nt180t 1.0.42',
+2026-01-15 16:27:34.34
+e379b515
+User
+config: {
+2026-01-15 16:27:34.34
+e379b515
+User
+at async GET (/home/runner/workspace/.next/server/app/api/get/route.js:292:29)
+2026-01-15 16:27:34.34
+e379b515
+User
+at async eI.execute (/home/runner/workspace/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:32486)
+2026-01-15 16:27:34.34
+e379b515
+User
+maxBodyLength: -1,
+2026-01-15 16:27:34.34
+e379b515
+User
+data: '{}'
+2026-01-15 16:27:34.34
+e379b515
+User
+abort: [Function (anonymous)],
+2026-01-15 16:27:34.34
+e379b515
+User
+'sec-ch-ua': '"Chromium";v="130", "Android WebView";v="130", "Not?A_Brand";v="99"',
+2026-01-15 16:27:34.34
+e379b515
+User
+method: 'post',
+2026-01-15 16:27:34.34
+e379b515
+User
+silentJSONParsing: true,
+2026-01-15 16:27:34.34
+e379b515
+User
+code: 'ERR_BAD_REQUEST',
+2026-01-15 16:27:34.34
+e379b515
+User
+headers: Object [AxiosHeaders] {
+2026-01-15 16:27:34.34
+e379b515
+User
+Error fetching audio: AxiosError: Request failed with status code 429
+2026-01-15 16:27:34.34
+e379b515
+User
+at async SunoApi.keepAlive (/home/runner/workspace/.next/server/chunks/669.js:215:31)
+2026-01-15 16:27:34.34
+e379b515
+User
+at async doRender (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1317:42)
+2026-01-15 16:27:34.34
+e379b515
+User
+at async /home/runner/workspace/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:42484
+2026-01-15 16:27:34.34
+e379b515
+User
+timeout: 0,
+2026-01-15 16:27:34.34
+e379b515
+User
+'Content-Type': 'application/json',
+2026-01-15 16:27:34.34
+e379b515
+User
+forcedJSONParsing: true,
+Wrap
