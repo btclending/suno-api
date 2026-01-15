@@ -151,19 +151,34 @@ class SunoApi {
    */
   private async getAuthToken() {
     logger.info('Getting the session ID');
+    logger.info(`Cookie __client present: ${!!this.cookies.__client}`);
+    logger.info(`Cookie __client length: ${this.cookies.__client?.length || 0}`);
     // URL to get session ID
     const getSessionUrl = `${SunoApi.CLERK_BASE_URL}/v1/client?_is_native=true&_clerk_js_version=${SunoApi.CLERK_VERSION}`;
     // Get session ID
-    const sessionResponse = await this.client.get(getSessionUrl, {
-      headers: { Authorization: this.cookies.__client }
-    });
-    if (!sessionResponse?.data?.response?.last_active_session_id) {
-      throw new Error(
-        'Failed to get session id, you may need to update the SUNO_COOKIE'
-      );
+    try {
+      const sessionResponse = await this.client.get(getSessionUrl, {
+        headers: { Authorization: this.cookies.__client }
+      });
+      logger.info(`Clerk response status: ${sessionResponse.status}`);
+      logger.info(`Clerk response has data: ${!!sessionResponse.data}`);
+      logger.info(`Clerk response keys: ${JSON.stringify(Object.keys(sessionResponse.data || {}))}`);
+      if (!sessionResponse?.data?.response?.last_active_session_id) {
+        logger.error(`No last_active_session_id in response. Response: ${JSON.stringify(sessionResponse.data).slice(0, 500)}`);
+        throw new Error(
+          'Failed to get session id, you may need to update the SUNO_COOKIE'
+        );
+      }
+      // Save session ID for later use
+      this.sid = sessionResponse.data.response.last_active_session_id;
+    } catch (error: any) {
+      logger.error(`Clerk API error: ${error.message}`);
+      if (error.response) {
+        logger.error(`Clerk response status: ${error.response.status}`);
+        logger.error(`Clerk response data: ${JSON.stringify(error.response.data).slice(0, 500)}`);
+      }
+      throw error;
     }
-    // Save session ID for later use
-    this.sid = sessionResponse.data.response.last_active_session_id;
   }
 
   /**
