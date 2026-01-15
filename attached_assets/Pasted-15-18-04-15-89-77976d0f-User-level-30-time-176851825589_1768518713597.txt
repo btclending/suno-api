@@ -1,0 +1,136 @@
+15 18:04:15.89
+77976d0f
+User
+{"level":30,"time":1768518255896,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 18:04:16.22
+77976d0f
+User
+{"level":30,"time":1768518256219,"pid":30,"hostname":"nixos","required":false}
+2026-01-15 18:04:16.22
+77976d0f
+User
+{"level":30,"time":1768518256220,"pid":30,"hostname":"nixos","msg":"generateSongs payload:\n{\n \"prompt\": \"[Verse 1]\\nI remember the day I first saw you, a light in a crowded room\\nDidn't know then, Caroline, you'd chase away all my gloom\\nThought I knew what love was, a fleeting, hopeful thing\\nBut you opened up a whole new world, made my own heart truly sing\\nWe built a life from scratch, honey, from that first small apartment floor\\nDreaming 'bout a future, always wanting something more.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Verse 2]\\nI think back to Portugal, that summer by the sea\\nCobblestone streets and sunsets, just you and me, wild and free\\nBefore the late-night feedings, before the school-run rush\\nWe knew then, gazing at the ocean, our love was more than just a crush\\nYour beauty still takes my breath, love, but it's your spirit, pure and bright\\nThat guides our little family, through every day and night.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Bridge]\\nFrom scraped knees to graduations, you've been their guiding star\\nPatient, kind, and brilliant, no matter how near or far\\nAnd when they look at you, Caroline, with wonder in their eyes\\nI see the greatest mother, beneath these endless skies.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Outro]\\nSo, on your birthday, my love, as I look back through all these years\\nThank you for every smile, every joy, every shared tear.\\nThank you for this life, Caroline. It's more than I ever dreamed of.\\nHappy birthday, my beautiful wife. I love you more than words.\",\n \"isCustom\": true,\n \"tags\": \"Modern Country Ballad, Male Vocals, Storytelling, Acoustic Guitar, Pedal Steel, Intimate, Warm, Reflective\",\n \"title\": \"My Caroline\",\n \"make_instrumental\": false,\n \"wait_audio\": false,\n \"payload\": {\n \"make_instrumental\": false,\n \"mv\": \"chirp-crow\",\n \"prompt\": \"[Verse 1]\\nI remember the day I first saw you, a light in a crowded room\\nDidn't know then, Caroline, you'd chase away all my gloom\\nThought I knew what love was, a fleeting, hopeful thing\\nBut you opened up a whole new world, made my own heart truly sing\\nWe built a life from scratch, honey, from that first small apartment floor\\nDreaming 'bout a future, always wanting something more.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Verse 2]\\nI think back to Portugal, that summer by the sea\\nCobblestone streets and sunsets, just you and me, wild and free\\nBefore the late-night feedings, before the school-run rush\\nWe knew then, gazing at the ocean, our love was more than just a crush\\nYour beauty still takes my breath, love, but it's your spirit, pure and bright\\nThat guides our little family, through every day and night.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Bridge]\\nFrom scraped knees to graduations, you've been their guiding star\\nPatient, kind, and brilliant, no matter how near or far\\nAnd when they look at you, Caroline, with wonder in their eyes\\nI see the greatest mother, beneath these endless skies.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Outro]\\nSo, on your birthday, my love, as I look back through all these years\\nThank you for every smile, every joy, every shared tear.\\nThank you for this life, Caroline. It's more than I ever dreamed of.\\nHappy birthday, my beautiful wife. I love you more than words.\",\n \"generation_type\": \"TEXT\",\n \"token\": null,\n \"tags\": \"Modern Country Ballad, Male Vocals, Storytelling, Acoustic Guitar, Pedal Steel, Intimate, Warm, Reflective\",\n \"title\": \"My Caroline\"\n }\n}"}
+2026-01-15 18:04:16.62
+77976d0f
+User
+{"level":30,"time":1768518256624,"pid":30,"hostname":"nixos","msg":"Custom Generate Response:\n[\n {\n \"id\": \"eed80318-0239-4f68-a904-df294ec1c42d\",\n \"title\": \"My Caroline\",\n \"lyric\": \"[Verse 1]\\nI remember the day I first saw you, a light in a crowded room\\nDidn't know then, Caroline, you'd chase away all my gloom\\nThought I knew what love was, a fleeting, hopeful thing\\nBut you opened up a whole new world, made my own heart truly sing\\nWe built a life from scratch, honey, from that first small apartment floor\\nDreaming 'bout a future, always wanting something more.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Verse 2]\\nI think back to Portugal, that summer by the sea\\nCobblestone streets and sunsets, just you and me, wild and free\\nBefore the late-night feedings, before the school-run rush\\nWe knew then, gazing at the ocean, our love was more than just a crush\\nYour beauty still takes my breath, love, but it's your spirit, pure and bright\\nThat guides our little family, through every day and night.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Bridge]\\nFrom scraped knees to graduations, you've been their guiding star\\nPatient, kind, and brilliant, no matter how near or far\\nAnd when they look at you, Caroline, with wonder in their eyes\\nI see the greatest mother, beneath these endless skies.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Outro]\\nSo, on your birthday, my love, as I look back through all these years\\nThank you for every smile, every joy, every shared tear.\\nThank you for this life, Caroline. It's more than I ever dreamed of.\\nHappy birthday, my beautiful wife. I love you more than words.\",\n \"audio_url\": \"\",\n \"video_url\": \"\",\n \"created_at\": \"2026-01-15T23:04:16.430Z\",\n \"model_name\": \"chirp-crow\",\n \"status\": \"submitted\",\n \"prompt\": \"[Verse 1]\\nI remember the day I first saw you, a light in a crowded room\\nDidn't know then, Caroline, you'd chase away all my gloom\\nThought I knew what love was, a fleeting, hopeful thing\\nBut you opened up a whole new world, made my own heart truly sing\\nWe built a life from scratch, honey, from that first small apartment floor\\nDreaming 'bout a future, always wanting something more.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Verse 2]\\nI think back to Portugal, that summer by the sea\\nCobblestone streets and sunsets, just you and me, wild and free\\nBefore the late-night feedings, before the school-run rush\\nWe knew then, gazing at the ocean, our love was more than just a crush\\nYour beauty still takes my breath, love, but it's your spirit, pure and bright\\nThat guides our little family, through every day and night.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Bridge]\\nFrom scraped knees to graduations, you've been their guiding star\\nPatient, kind, and brilliant, no matter how near or far\\nAnd when they look at you, Caroline, with wonder in their eyes\\nI see the greatest mother, beneath these endless skies.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Outro]\\nSo, on your birthday, my love, as I look back through all these years\\nThank you for every smile, every joy, every shared tear.\\nThank you for this life, Caroline. It's more than I ever dreamed of.\\nHappy birthday, my beautiful wife. I love you more than words.\",\n \"type\": \"gen\",\n \"tags\": \"Modern Country Ballad, Male Vocals, Storytelling, Acoustic Guitar, Pedal Steel, Intimate, Warm, Reflective\"\n },\n {\n \"id\": \"444b9029-fa66-4cf8-9322-9b65dcc36ebc\",\n \"title\": \"My Caroline\",\n \"lyric\": \"[Verse 1]\\nI remember the day I first saw you, a light in a crowded room\\nDidn't know then, Caroline, you'd chase away all my gloom\\nThought I knew what love was, a fleeting, hopeful thing\\nBut you opened up a whole new world, made my own heart truly sing\\nWe built a life from scratch, honey, from that first small apartment floor\\nDreaming 'bout a future, always wanting something more.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Verse 2]\\nI think back to Portugal, that summer by the sea\\nCobblestone streets and sunsets, just you and me, wild and free\\nBefore the late-night feedings, before the school-run rush\\nWe knew then, gazing at the ocean, our love was more than just a crush\\nYour beauty still takes my breath, love, but it's your spirit, pure and bright\\nThat guides our little family, through every day and night.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Bridge]\\nFrom scraped knees to graduations, you've been their guiding star\\nPatient, kind, and brilliant, no matter how near or far\\nAnd when they look at you, Caroline, with wonder in their eyes\\nI see the greatest mother, beneath these endless skies.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Outro]\\nSo, on your birthday, my love, as I look back through all these years\\nThank you for every smile, every joy, every shared tear.\\nThank you for this life, Caroline. It's more than I ever dreamed of.\\nHappy birthday, my beautiful wife. I love you more than words.\",\n \"audio_url\": \"\",\n \"video_url\": \"\",\n \"created_at\": \"2026-01-15T23:04:16.431Z\",\n \"model_name\": \"chirp-crow\",\n \"status\": \"submitted\",\n \"prompt\": \"[Verse 1]\\nI remember the day I first saw you, a light in a crowded room\\nDidn't know then, Caroline, you'd chase away all my gloom\\nThought I knew what love was, a fleeting, hopeful thing\\nBut you opened up a whole new world, made my own heart truly sing\\nWe built a life from scratch, honey, from that first small apartment floor\\nDreaming 'bout a future, always wanting something more.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Verse 2]\\nI think back to Portugal, that summer by the sea\\nCobblestone streets and sunsets, just you and me, wild and free\\nBefore the late-night feedings, before the school-run rush\\nWe knew then, gazing at the ocean, our love was more than just a crush\\nYour beauty still takes my breath, love, but it's your spirit, pure and bright\\nThat guides our little family, through every day and night.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Bridge]\\nFrom scraped knees to graduations, you've been their guiding star\\nPatient, kind, and brilliant, no matter how near or far\\nAnd when they look at you, Caroline, with wonder in their eyes\\nI see the greatest mother, beneath these endless skies.\\n\\n[Chorus]\\nOh, Caroline, my steady hand, my anchor in the storm\\nFrom holding tiny fingers to keeping our whole world warm\\nWith a laugh that echoes through the house and a mind so sharp and keen\\nYou're the heart of everything we've built, the best I've ever seen\\nAnd watching our three children grow, a picture I could paint\\nEvery milestone, every challenge, you never once grew faint.\\n\\n[Outro]\\nSo, on your birthday, my love, as I look back through all these years\\nThank you for every smile, every joy, every shared tear.\\nThank you for this life, Caroline. It's more than I ever dreamed of.\\nHappy birthday, my beautiful wife. I love you more than words.\",\n \"type\": \"gen\",\n \"tags\": \"Modern Country Ballad, Male Vocals, Storytelling, Acoustic Guitar, Pedal Steel, Intimate, Warm, Reflective\"\n }\n]"}
+2026-01-15 18:04:16.64
+77976d0f
+User
+{"level":30,"time":1768518256624,"pid":30,"hostname":"nixos","msg":"Cost time: 729"}
+2026-01-15 18:10:48.81
+77976d0f
+User
+{"level":30,"time":1768518648809,"pid":30,"hostname":"nixos","msg":"KeepAlive...\n"}
+2026-01-15 18:10:49.20
+77976d0f
+User
+{"level":30,"time":1768518649204,"pid":30,"hostname":"nixos","required":true}
+2026-01-15 18:10:49.23
+77976d0f
+User
+{"level":30,"time":1768518649204,"pid":30,"hostname":"nixos","msg":"CAPTCHA required. Launching browser..."}
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async cacheEntry.responseCache.get.routeKind (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1539:28)
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async eI.handle (/home/runner/workspace/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:43737)
+2026-01-15 18:10:49.25
+77976d0f
+User
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async NextNodeServer.renderToResponseImpl (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1882:32)
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async NextNodeServer.pipeImpl (/home/runner/workspace/node_modules/next/dist/server/base-server.js:895:25)
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async NextNodeServer.renderToResponseWithComponentsImpl (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1447:28)
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async invokeRender (/home/runner/workspace/node_modules/next/dist/server/lib/router-server.js:174:21)
+2026-01-15 18:10:49.25
+77976d0f
+User
+}
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async NextNodeServer.handleCatchallRenderRequest (/home/runner/workspace/node_modules/next/dist/server/next-server.js:269:17)
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async NextNodeServer.handleRequestImpl (/home/runner/workspace/node_modules/next/dist/server/base-server.js:791:17)
+2026-01-15 18:10:49.25
+77976d0f
+User
+║ ║
+2026-01-15 18:10:49.25
+77976d0f
+User
+at /home/runner/workspace/async /home/runner/workspace/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:42484
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async doRender (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1317:42)
+2026-01-15 18:10:49.25
+77976d0f
+User
+║ Please run the following command to download new browsers: ║
+2026-01-15 18:10:49.25
+77976d0f
+User
+╔═════════════════════════════════════════════════════════════════════════╗
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async NextNodeServer.renderPageComponent (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1844:24)
+2026-01-15 18:10:49.25
+77976d0f
+User
+║ <3 Playwright Team ║
+2026-01-15 18:10:49.25
+77976d0f
+User
+║ ║
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async Server.requestListener (/home/runner/workspace/node_modules/next/dist/server/lib/start-server.js:140:13) {
+2026-01-15 18:10:49.25
+77976d0f
+User
+║ npx playwright install ║
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async requestHandlerImpl (/home/runner/workspace/node_modules/next/dist/server/lib/router-server.js:377:13)
+2026-01-15 18:10:49.25
+77976d0f
+User
+Error generating custom audio: pOST: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium_headless_shell-1148/chrome-linux/headless_shell
+2026-01-15 18:10:49.25
+77976d0f
+User
+name: 'Error'
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async handleRequest (/home/runner/workspace/node_modules/next/dist/server/lib/router-server.js:353:24)
+2026-01-15 18:10:49.25
+77976d0f
+User
+at async eI.execute (/home/runner/workspace/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:32486)
+2026-01-15 18:10:49.25
+77976d0f
+User
+╚═════════════════════════════════════════════════════════════════════════╝
