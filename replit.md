@@ -43,4 +43,9 @@ The application requires the following environment variables (see `.env.example`
 - `/docs` - Interactive API documentation
 
 ## Recent Changes
+- 2026-01-15: Applied authentication fixes from kershey/suno-api-improved fork
+  - Updated Clerk API URL from clerk.suno.com to auth.suno.com
+  - Updated Clerk version from 5.15.0 to 5.117.0
+  - Added proper API version parameter (2025-11-10)
+  - Fixed cookie parsing to extract __client_uat from session-variant cookies
 - 2026-01-15: Configured for Replit environment with port 5000
