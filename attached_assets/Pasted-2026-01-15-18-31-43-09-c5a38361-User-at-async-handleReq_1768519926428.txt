@@ -1,0 +1,145 @@
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async handleRequest (/home/runner/workspace/node_modules/next/dist/server/lib/router-server.js:353:24)
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async NextNodeServer.pipeImpl (/home/runner/workspace/node_modules/next/dist/server/base-server.js:895:25)
+2026-01-15 18:31:43.09
+c5a38361
+User
+Error generating custom audio: pOST: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium_headless_shell-1148/chrome-linux/headless_shell
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async NextNodeServer.renderPageComponent (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1844:24)
+2026-01-15 18:31:43.09
+c5a38361
+User
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+2026-01-15 18:31:43.09
+c5a38361
+User
+╚═════════════════════════════════════════════════════════════════════════╝
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async NextNodeServer.renderToResponseImpl (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1882:32)
+2026-01-15 18:31:43.09
+c5a38361
+User
+║ ║
+2026-01-15 18:31:43.09
+c5a38361
+User
+║ <3 Playwright Team ║
+2026-01-15 18:31:43.09
+c5a38361
+User
+name: 'Error'
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async cacheEntry.responseCache.get.routeKind (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1539:28)
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async invokeRender (/home/runner/workspace/node_modules/next/dist/server/lib/router-server.js:174:21)
+2026-01-15 18:31:43.09
+c5a38361
+User
+║ Please run the following command to download new browsers: ║
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async requestHandlerImpl (/home/runner/workspace/node_modules/next/dist/server/lib/router-server.js:377:13)
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async NextNodeServer.renderToResponseWithComponentsImpl (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1447:28)
+2026-01-15 18:31:43.09
+c5a38361
+User
+║ npx playwright install ║
+2026-01-15 18:31:43.09
+c5a38361
+User
+at /home/runner/workspace/async /home/runner/workspace/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:42484
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async NextNodeServer.handleCatchallRenderRequest (/home/runner/workspace/node_modules/next/dist/server/next-server.js:269:17)
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async Server.requestListener (/home/runner/workspace/node_modules/next/dist/server/lib/start-server.js:140:13) {
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async NextNodeServer.handleRequestImpl (/home/runner/workspace/node_modules/next/dist/server/base-server.js:791:17)
+2026-01-15 18:31:43.09
+c5a38361
+User
+║ ║
+2026-01-15 18:31:43.09
+c5a38361
+User
+}
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async doRender (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1317:42)
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async eI.handle (/home/runner/workspace/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:43737)
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async eI.execute (/home/runner/workspace/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:32486)
+2026-01-15 18:31:43.09
+c5a38361
+User
+╔═════════════════════════════════════════════════════════════════════════╗
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async handleRequest (/home/runner/workspace/node_modules/next/dist/server/lib/router-server.js:353:24)
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async NextNodeServer.pipeImpl (/home/runner/workspace/node_modules/next/dist/server/base-server.js:895:25)
+2026-01-15 18:31:43.09
+c5a38361
+User
+Error generating custom audio: pOST: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium_headless_shell-1148/chrome-linux/headless_shell
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async NextNodeServer.renderPageComponent (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1844:24)
+2026-01-15 18:31:43.09
+c5a38361
+User
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+2026-01-15 18:31:43.09
+c5a38361
+User
+╚═════════════════════════════════════════════════════════════════════════╝
+2026-01-15 18:31:43.09
+c5a38361
+User
+at async NextNodeServer.renderToResponseImpl (/home/runner/workspace/node_modules/next/dist/server/base-server.js:1882:32)
+2026-01-15 18:31:43.09
+c5a38361
+User
+║ ║
+2026-01-15 18:31:43.09
+c5a38361
+User
+║ <3 Playwright Team ║
+2026-01-15 18:31:43.09
+c5a38361
+User
+name: 'Error'
+Wrap
