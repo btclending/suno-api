@@ -1,0 +1,140 @@
+{
+    "response": {
+        "object": "client",
+        "id": "client_5shuF4ioHUAy6SF3a7MFmx",
+        "sessions": [
+            {
+                "id": "session_75b35c30682ce07084bb1e",
+                "object": "session",
+                "status": "active",
+                "expire_at": 1800037499409,
+                "abandon_at": 1800037499409,
+                "last_active_at": 1768501499409,
+                "last_active_token": {
+                    "object": "token",
+                    "jwt": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdW5vLmNvbS9jbGFpbXMvdXNlcl9pZCI6ImRlMWQ0YzM2LTVlZmQtNDFlYi05MmUzLThhZTBiYTUwNTg5YyIsImh0dHBzOi8vc3Vuby5haS9jbGFpbXMvY2xlcmtfaWQiOiJ1c2VyXzJuNnJUelc2eEVyRE5PTFE5UW9zaUNMNmxzUyIsInN1bm8uY29tL2NsYWltcy90b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY4NTA1Mjc4LCJhdWQiOiJzdW5vLWFwaSIsInN1YiI6InVzZXJfMm42clR6VzZ4RXJETk9MUTlRb3NpQ0w2bHNTIiwiYXpwIjoiaHR0cHM6Ly9zdW5vLmNvbSIsImZ2YSI6WzAsLTFdLCJpYXQiOjE3Njg1MDE2NzgsImlzcyI6Imh0dHBzOi8vYXV0aC5zdW5vLmNvbSIsImppdCI6IjZhZWRhODU4LWVmYjctNDM3NC05Yzg4LTc4M2ZjYjdkYmJjOCIsInZpeiI6ZmFsc2UsInNpZCI6InNlc3Npb25fNzViMzVjMzA2ODJjZTA3MDg0YmIxZSIsInN1bm8uY29tL2NsYWltcy9lbWFpbCI6ImpvbmF0aGFuLnNjaGFmZkBnbWFpbC5jb20iLCJodHRwczovL3N1bm8uYWkvY2xhaW1zL2VtYWlsIjoiam9uYXRoYW4uc2NoYWZmQGdtYWlsLmNvbSIsInN1bm8uY29tL2NsYWltcy9waG9uZSI6IisxNjEwNzE1Njc2NiIsImh0dHBzOi8vc3Vuby5haS9jbGFpbXMvcGhvbmUiOiIrMTYxMDcxNTY3NjYifQ.TSipZUQ7uh8AqZPos5O33CI64W79-i9GdmoqvJUvnxAe2w8-TECTI77AI9jwCiIYnkjRCQ1g5pLrmFx_cCDu8WFbfDrH6pnLF6TLgQ4_Pi8ugw-zbWQx13_0Vw4xCnjktfw5CRFK8NAU9Mr3NhLO1ndsn8DKCbhZ5RkvSCw9N-0FvLRU__sIWJt6TF7uOYqKZLkZEFF9uHOzE0L2pjvlm6XL54w1FbN9PXZjxMkPZt-65iE5tYTegxn5U5o3LDwXJBvpu6lCLIETGyVrh-sMQXVHjwtQxApuiTdugmbisztX17PNdEhvwSdd_5vI2NSpQwMcZBbyaY81QJcoelQt0g"
+                },
+                "user": {
+                    "id": "user_2n6rTzW6xErDNOLQ9QosiCL6lsS",
+                    "object": "user",
+                    "username": "jonathan.schaff@gmail.com",
+                    "first_name": "",
+                    "last_name": "",
+                    "image_url": "https://cdn1.suno.ai/defaultOrange.webp",
+                    "has_image": true,
+                    "password_enabled": true,
+                    "two_factor_enabled": true,
+                    "totp_enabled": false,
+                    "backup_code_enabled": false,
+                    "email_addresses": [
+                        {
+                            "id": "jonathan.schaff@gmail.com",
+                            "object": "email_address",
+                            "email_address": "jonathan.schaff@gmail.com",
+                            "reserved": false,
+                            "linked_to": [],
+                            "matches_sso_connection": false,
+                            "created_at": 1728304379420,
+                            "updated_at": 1742529766939
+                        }
+                    ],
+                    "phone_numbers": [
+                        {
+                            "id": "+16107156766",
+                            "object": "phone_number",
+                            "phone_number": "+16107156766",
+                            "reserved_for_second_factor": false,
+                            "default_second_factor": false,
+                            "reserved": false,
+                            "linked_to": [],
+                            "created_at": 1728304379420,
+                            "updated_at": 1742529766939
+                        }
+                    ],
+                    "web3_wallets": [],
+                    "passkeys": [],
+                    "organization_memberships": [],
+                    "external_accounts": [],
+                    "saml_accounts": [],
+                    "enterprise_accounts": [],
+                    "password_last_updated_at": 1728304379,
+                    "public_metadata": {},
+                    "private_metadata": {},
+                    "unsafe_metadata": {},
+                    "last_sign_in_at": 1728304379,
+                    "banned": false,
+                    "locked": false,
+                    "created_at": 1728304379420,
+                    "updated_at": 1742529766939,
+                    "delete_self_enabled": false,
+                    "create_organization_enabled": false,
+                    "create_organizations_limit": 0,
+                    "last_active_at": 1742529766939
+                },
+                "factor_verification_age": [
+                    0,
+                    -1
+                ],
+                "created_at": 1766906778204,
+                "updated_at": 1768501499409
+            }
+        ],
+        "sign_in": {
+            "object": "sign_in_attempt",
+            "id": "signin_An6xUuMYjhD8vU2qJSJHZe",
+            "status": "complete",
+            "supported_identifiers": [],
+            "supported_first_factors": [
+                {
+                    "strategy": "phone_code",
+                    "safe_identifier": "+16107156766",
+                    "primary": true,
+                    "default": false
+                }
+            ],
+            "first_factor_verification": {
+                "object": "verification_otp",
+                "status": "unverified",
+                "strategy": "phone_code",
+                "attempts": 1,
+                "expire_at": 1768505090960
+            },
+            "identifier": "+16107156766",
+            "created_session_id": "session_75b35c30682ce07084bb1e",
+            "abandon_at": 1768505090960
+        },
+        "sign_up": {
+            "object": "sign_up_attempt",
+            "id": "signin_An6xUuMYjhD8vU2qJSJHZe",
+            "status": "complete",
+            "required_fields": [
+                "phone_number"
+            ],
+            "optional_fields": [],
+            "missing_fields": [],
+            "unverified_fields": [
+                "phone_number"
+            ],
+            "verifications": {
+                "phone_number": {
+                    "next_action": "needs_attempt",
+                    "supported_strategies": [
+                        "phone_code"
+                    ]
+                }
+            },
+            "phone_number": "+16107156766",
+            "password_enabled": false,
+            "unsafe_metadata": {},
+            "public_metadata": {},
+            "custom_action": false,
+            "created_session_id": "session_75b35c30682ce07084bb1e",
+            "abandon_at": 1768505090960
+        },
+        "last_active_session_id": "session_75b35c30682ce07084bb1e",
+        "cookie_expires_at": 1768505278143,
+        "captcha_bypass": false,
+        "created_at": 1766906778204,
+        "updated_at": 1768501499409
+    }
+}
