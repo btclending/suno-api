@@ -1,10 +1,13 @@
 import { NextResponse, NextRequest } from "next/server";
 import { sunoApi } from "@/lib/SunoApi";
-import { corsHeaders } from "@/lib/utils";
+import { corsHeaders, validateApiKey, unauthorizedResponse } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
 
 export async function GET(req: NextRequest) {
+  if (!validateApiKey(req)) {
+    return unauthorizedResponse();
+  }
   if (req.method === 'GET') {
     try {
       const url = new URL(req.url);

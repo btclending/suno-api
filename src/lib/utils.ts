@@ -114,5 +114,21 @@ export const waitForRequests = (page: Page, signal: AbortSignal): Promise<void> 
 export const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-API-Key',
+}
+
+export function validateApiKey(request: Request): boolean {
+  const apiKey = process.env.API_KEY;
+  if (!apiKey) {
+    return true;
+  }
+  const providedKey = request.headers.get('X-API-Key') || request.headers.get('Authorization')?.replace('Bearer ', '');
+  return providedKey === apiKey;
+}
+
+export function unauthorizedResponse() {
+  return new Response(JSON.stringify({ error: 'Unauthorized. Please provide a valid API key in X-API-Key header.' }), {
+    status: 401,
+    headers: { 'Content-Type': 'application/json', ...corsHeaders }
+  });
 }
