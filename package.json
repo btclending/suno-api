@@ -10,7 +10,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -H 0.0.0.0 -p 5000",
-    "build": "npx playwright install chromium && next build",
+    "build": "npx playwright@1.49.1 install chromium && next build",
     "start": "next start -H 0.0.0.0 -p 5000",
     "lint": "next lint"
   },

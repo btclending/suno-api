@@ -1,0 +1,47 @@
+
+30
+04a96fce
+User
+[GCUI-SUNO] Order found: {
+2026-01-15 19:47:26.31
+04a96fce
+User
+[GCUI-SUNO] Response status: 500
+2026-01-15 19:47:26.31
+04a96fce
+User
+[GCUI-SUNO] Response ok: false
+2026-01-15 19:47:26.32
+04a96fce
+User
+[GCUI-SUNO] ERROR: API returned non-OK status
+2026-01-15 19:47:26.32
+04a96fce
+User
+[GCUI-SUNO] Error response body: {"error":"Error: pOST: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium_headless_shell-1148/chrome-linux/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers: ║\n║ ║\n║ npx playwright install ║\n║ ║\n║ <3 Playwright Team ║\n╚═════════════════════════════════════════════════════════════════════════╝"}
+2026-01-15 19:47:26.32
+04a96fce
+User
+at file:///home/runner/workspace/server/index.js:2344:13
+2026-01-15 19:47:26.32
+04a96fce
+User
+[GCUI-SUNO] Stack: Error: Song generation failed: 500 - {"error":"Error: pOST: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium_headless_shell-1148/chrome-linux/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers: ║\n║ ║\n║ npx playwright install ║\n║ ║\n║ <3 Playwright Team ║\n╚═════════════════════════════════════════════════════════════════════════╝"}
+2026-01-15 19:47:26.32
+04a96fce
+User
+[GCUI-SUNO] ERROR: Song generation failed: 500 - {"error":"Error: pOST: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium_headless_shell-1148/chrome-linux/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers: ║\n║ ║\n║ npx playwright install ║\n║ ║\n║ <3 Playwright Team ║\n╚═════════════════════════════════════════════════════════════════════════╝"}
+2026-01-15 19:47:26.32
+04a96fce
+User
+at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-15 19:47:26.32
+04a96fce
+User
+[GCUI-SUNO] ========================================
+2026-01-15 19:47:26.32
+04a96fce
+User
+[GCUI-SUNO] ========================================
+Wrap
+Colors
