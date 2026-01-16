@@ -10,10 +10,11 @@ RUN npm run build
 FROM node:20-bookworm-slim
 WORKDIR /app
 
-# Install Chromium dependencies + cleanup in single layer
+# Install Chromium dependencies + xvfb for captcha + cleanup in single layer
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     libnss3 libdbus-1-3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 \
     libxdamage1 libxfixes3 libxrandr2 libgbm1 libxkbcommon0 libasound2 libcups2 \
+    xvfb \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Copy package files and install production deps
