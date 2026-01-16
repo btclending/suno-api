@@ -37,3 +37,8 @@ externalPort = 80
 deploymentTarget = "vm"
 build = ["npm", "run", "build"]
 run = ["npm", "run", "start"]
+
+[userenv]
+
+[userenv.shared]
+PLAYWRIGHT_BROWSERS_PATH = "/home/runner/workspace/.playwright-browsers"
