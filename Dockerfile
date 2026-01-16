@@ -23,10 +23,11 @@ RUN npm ci --only=production && npm cache clean --force
 # Install Playwright Chromium
 RUN npx playwright install chromium && rm -rf /root/.cache/ms-playwright/.links
 
-# Copy built app from builder
+# Copy built app and runtime files from builder
 COPY --from=builder /src/.next ./.next
+COPY --from=builder /src/public ./public
+COPY --from=builder /src/next.config.mjs ./
 
 ENV BROWSER_DISABLE_GPU=true
-
-EXPOSE 5000
+ENV PORT=5000
 CMD ["npm", "run", "start"]
