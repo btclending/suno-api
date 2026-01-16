@@ -1,32 +1,34 @@
-# syntax=docker/dockerfile:1 
-                                                                                                                                                                                                    
-FROM node:lts-bookworm AS builder                                                                                       
-WORKDIR /src                                                                                                            
-COPY package*.json ./                                                                                                   
-RUN npm install                                                                                                         
-COPY . .                                                                                                               
-RUN npm run build                                                                                                       
-                                                                                                                    
-FROM node:lts-bookworm                                                                                                  
-WORKDIR /app                                                                                                            
-COPY package*.json ./                                                                                                   
-                                                                                                                    
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y libnss3 \                                       
-    libdbus-1-3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 \                       
-    libgbm1 libxkbcommon0 libasound2 libcups2 xvfb                                                                      
-                                                                                                                    
-ARG SUNO_COOKIE             
-RUN if [ -z "$SUNO_COOKIE" ]; then echo "Warning: SUNO_COOKIE is not set. You will have to set the cookies in the Cookie header of your requests."; fi                                           
-ENV SUNO_COOKIE=${SUNO_COOKIE}
-# Disable GPU acceleration, as with it suno-api won't work in a Docker environment
-ENV BROWSER_DISABLE_GPU=true
+# syntax=docker/dockerfile:1
 
-RUN npm install --only=production                                                                                       
-                                                                                                                    
-# Install all supported browsers, else switching browsers requires an image rebuild                                     
-RUN npx playwright install chromium                                                                                     
-# RUN npx playwright install firefox                                                                                     
-                                                                                                                    
-COPY --from=builder /src/.next ./.next                                                                                  
-EXPOSE 3000                                                                                                             
+FROM node:20-bookworm-slim AS builder
+WORKDIR /src
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
+
+FROM node:20-bookworm-slim
+WORKDIR /app
+
+# Install Chromium dependencies + cleanup in single layer
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    libnss3 libdbus-1-3 libatk1.0-0 libatk-bridge2.0-0 libxcomposite1 \
+    libxdamage1 libxfixes3 libxrandr2 libgbm1 libxkbcommon0 libasound2 libcups2 \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+# Copy package files and install production deps
+COPY package*.json ./
+RUN npm ci --only=production && npm cache clean --force
+
+# Install Playwright Chromium
+RUN npx playwright install chromium && rm -rf /root/.cache/ms-playwright/.links
+
+# Copy built app and runtime files from builder
+COPY --from=builder /src/.next ./.next
+COPY --from=builder /src/public ./public
+COPY --from=builder /src/next.config.mjs ./
+
+ENV BROWSER_DISABLE_GPU=true
+ENV PORT=5000
+
 CMD ["npm", "run", "start"]
