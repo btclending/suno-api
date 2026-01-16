@@ -35,5 +35,5 @@ externalPort = 80
 
 [deployment]
 deploymentTarget = "vm"
-build = ["bash", "-c", "npm install && npx playwright install chromium"]
+build = ["npm", "run", "build"]
 run = ["npm", "run", "start"]
